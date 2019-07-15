@@ -210,4 +210,4 @@ The reason behind recominding the use of `user_id` over `screen_name` is that so
 
 This library should not be used for production product and its preferred to use the official Twitter API since it may voliate twitter polices https://help.twitter.com/en/rules-and-policies/twitter-automation
 
-There is a rate limit on using the method that can result in a temporary suspention of the service, please make sure to not run alot of method and adding `time.sleep` between calls, also using higher number of `count` in `Cursor` might help with this issue.
+There is a rate limit on using some methods that can result in a temporary suspention of the service, please make sure to not run alot of method and adding `time.sleep` between calls, also using higher number of `count` in `Cursor` might help with this issue.
